@@ -26,7 +26,7 @@ const ai = new GoogleGenAI({
 async function startBot() {
 
   const { state, saveCreds } =
-    await useMultiFileAuthState("./session")
+    await useMultiFileAuthState(".session")
 
   const sock = makeWASocket({
     auth: state,
