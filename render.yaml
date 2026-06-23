@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: wa-gemini-bot
-    runtime: node
-    plan: free
-    buildCommand: npm install
-    startCommand: npm start
